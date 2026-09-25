@@ -1,0 +1,5 @@
+{'labels': 'real', 'n_trials': 40, 'best_cv_auc': 0.5073, 'median_trial_cv_auc': 0.4985, 'locked_test_auc': 0.5058, 'locked_test_pr_auc': 0.0303, 'test_base_rate': 0.0286}
+{'labels': 'permuted', 'n_trials': 40, 'best_cv_auc': 0.5021, 'median_trial_cv_auc': 0.4982, 'locked_test_auc': 0.5028, 'locked_test_pr_auc': 0.0296, 'test_base_rate': 0.0286}
+  labels  n_trials  best_cv_auc  median_trial_cv_auc  locked_test_auc  locked_test_pr_auc  test_base_rate
+    real        40       0.5073               0.4985           0.5058              0.0303          0.0286
+permuted        40       0.5021               0.4982           0.5028              0.0296          0.0286

@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+cache/
+*.parquet
+*.pkl
+
+# keep the small result tables in git (root .gitignore drops every *.csv)
+!reports/tables/*.csv
