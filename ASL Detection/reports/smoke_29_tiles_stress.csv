@@ -1,0 +1,12 @@
+condition,accuracy,delta_vs_clean
+clean,0.8966,+0.0000
+brighter (+60),0.5172,-0.3793
+darker (-60),0.6552,-0.2414
+low contrast (x0.6),0.5862,-0.3103
+blur (k=7),0.8276,-0.0690
+noise (sigma=20),0.8966,+0.0000
+rotate 15 deg,0.4828,-0.4138
+shift 15%,0.2414,-0.6552
+hand smaller (x0.7),0.3103,-0.5862
+hand larger (x1.3),0.7241,-0.1724
+R/B channels swapped,0.2759,-0.6207

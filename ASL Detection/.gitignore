@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+my_test/
+
+# keep the small result tables in git (root .gitignore drops every *.csv)
+!reports/*.csv
