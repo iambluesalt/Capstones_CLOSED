@@ -66,7 +66,7 @@ Top-1% "lift" is noise at this size: the constant-score dummy shows 1.38× becau
 
 ## Data-quality notes (from `01_audit.py`)
 
-* All 138,752 rows are kept. V1/V2 ended with 138,372 (380 rows lost in the cleaning notebook; cause not investigated).
+* All 138,752 rows are kept. V1/V2 ended with 138,372. The 380 lost rows are 354 with State `unknown`/`none` (86 + 268, of which 13 fraud) plus 26 with an unparseable `EmailUpdateDate` (0 fraud), so 13 of 3,963 frauds were dropped; reproduced from the raw file.
 * 97.4% of rows fall in 12 days (2013-05-22 to 06-02); 3,622 stragglers run to Oct 22. A temporal split is not meaningful.
 * `WebSessionRetail` is constant 0 (or missing); `TimeZone` has a 999 sentinel (4 rows); 1,036 address and 1,132 email updates are dated after the transaction; `CurrentLat` is missing for 24,379 rows while `CurrentLong` is never missing.
 * Missingness is not informative: for every column with > 4,000 missing rows the fraud rate is 2.4–3.2% whether present or not (the two columns with only 12 and 26 missing rows are too small to read).

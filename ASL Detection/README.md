@@ -6,7 +6,7 @@ A small CNN (3 conv blocks, 1.28M parameters, 64×64 RGB input) that classifies 
 
 | Number | Where | What it is |
 |---|---|---|
-| 91% | old README | matches the last-epoch *training* accuracy (91.4%, dropout on) |
+| 91% | earlier README | matches the last-epoch *training* accuracy (91.4%, dropout on) |
 | 98.76% | notebook | accuracy on a random 30% split. The **same** split was used for early stopping, so it is not an untouched test set |
 | 26/29 | `reports/smoke_29_tiles_*` | smoke test, see below. Not an accuracy estimate |
 
